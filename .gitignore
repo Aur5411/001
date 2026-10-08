@@ -1,0 +1,25 @@
+# 构建与工作目录（不入库）
+work/
+patch/
+patch/classes/
+patch/dexout/
+patch/smaliout/
+patch/reqcls/
+patch/reqdex/
+patch/reqsmali/
+patch/uacls/
+patch/uadex/
+patch/uasmali/
+patch/probeclasses/
+patch/uatest/
+__pycache__/
+*.pyc
+
+# 签名密钥与口令
+*.jks
+*.keystore
+keystore.properties
+
+# 其它产物
+*.apk
+!001-v1.0.5.apk
