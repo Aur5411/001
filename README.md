@@ -1,6 +1,6 @@
 # 第一会所sis001
 
-001 应用（WebView 壳），当前版本 **v1.1.0-fix**。
+001 应用（WebView 壳），当前版本 **v1.1.1-fix**。
 
 ## 功能
 
@@ -19,6 +19,11 @@
 见 [Releases](https://github.com/Aur5411/001/releases) 页面。
 
 ## 更新记录
+
+### v1.1.1-fix
+
+- **全败兜底改为 `https://www.sis001.com/bbs/`**：所有候选地址都探不通时直接落到站点主域名，不再落到 IP 镜像
+- 启动页预填地址同步改为 `https://www.sis001.com/bbs/`；探活排序不再把 sis001.com 当坏线路压低优先级
 
 ### v1.1.0-fix
 
@@ -60,7 +65,7 @@ https://www.sis001.com/bbs/
 https://sis001.uk/bbs/
 ```
 
-直接整段复制进 App 输入框即可，App 会自己挑一条通的进去。
+直接整段复制进 App 输入框即可，App 会自己挑一条通的进去；全部不通时回退 https://www.sis001.com/bbs/。
 
 ## 安装说明
 
